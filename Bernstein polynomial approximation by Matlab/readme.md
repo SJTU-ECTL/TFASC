@@ -5,7 +5,7 @@ This program is run before TFASC to prepare for its input files regarding to the
 This program implements the method proposed in [1] to realize the closest approximation of a target function with a degree-n Bernstein polynomial. More over, given a precision parameter m, it also finds the corresponding feature vector (the same as "problem vector" in [2]) of the Bernstein polynomial.
 
 The related reference papers are:
-- [1]: a
+- [1]: ...
 - [2]: Cube Assignment for Stochastic Circuit Synthesis
 - [3]: Exploring Target Function Approximation for Stochastic Circuit Minimization
 
