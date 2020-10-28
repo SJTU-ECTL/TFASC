@@ -1,4 +1,4 @@
-# Bernstein Polynomial Approximation for the Target Function by Matlab
+# Bernstein Polynomial Approximation for the Target Function by Matlab (input preparation for TFASC) 
 
 This program is run before TFASC to prepare for its input files regarding to the target function to be approximated.
 
