@@ -14,15 +14,15 @@ To run the program, the user can choose either the “demo” mode or the “use
 
 - For “demo” mode, it obtains the Bernstein polynomial approximation and the corresponding feature vectors to the target functions in our paper [ref3]. 
 
-Please run “main_demo.m” for this mode. 
+  Please run “main_demo.m” for this mode. 
 
-The result summary is “.\output_dir\demo_results\summary.txt”, and the generated input files for TFASC are in the folder “.\output_dir\demo_results\input_files_for_TFASC\”.
+  The result summary is “.\output_dir\demo_results\summary.txt”, and the generated input files for TFASC are in the folder “.\output_dir\demo_results\input_files_for_TFASC\”.
 
 - For “user-defined” mode, the user can define a target function and approximate it by the Bernstein polynomial. First, the user should put the definition of the target function in “.\target_function_user_defined.m”, and in “.\main_userDef.m” specify the degree n of Bernstein polynomial and the precision parameter m. 
 
-Please run “main_userDef.m”. 
+  Please run “main_userDef.m”. 
 
-The result summary is saved as “.\output_dir\user_results\summary.txt”, and the generated input file for TFASC is in the folder “.\output_dir\user_results\ input_files_for_TFASC\”.
+  The result summary is saved as “.\output_dir\user_results\summary.txt”, and the generated input file for TFASC is in the folder “.\output_dir\user_results\ input_files_for_TFASC\”.
 
 
 
