@@ -1,0 +1,336 @@
+bm1.1: sin(x)
+n = 4, m = 4
+Bernstein coefficients:  0.0008 0.2483 0.5022 0.7058 0.8416 
+
+feature vector:  0 16 48 45 13 
+
+
+bm2.1: cos(x)
+n = 4, m = 4
+Bernstein coefficients:  0.9996 0.9990 0.9184 0.7493 0.5406 
+
+feature vector:  16 64 88 48 9 
+
+
+bm3.1: exp(-x)
+n = 4, m = 4
+Bernstein coefficients:  0.9992 0.7517 0.5813 0.4605 0.3677 
+
+feature vector:  16 48 56 29 6 
+
+
+bm4.1: log(x+1)
+n = 4, m = 4
+Bernstein coefficients:  0.0009 0.2475 0.4220 0.5680 0.6932 
+
+feature vector:  0 16 41 36 11 
+
+
+bm5.1: sin(pi*x)/pi
+n = 4, m = 4
+Bernstein coefficients:  0.0011 0.2444 0.5225 0.2444 0.0011 
+
+feature vector:  0 16 50 16 0 
+
+
+bm6.1: tanh(x)
+n = 4, m = 4
+Bernstein coefficients:  0.0008 0.2483 0.5031 0.6550 0.7619 
+
+feature vector:  0 16 48 42 12 
+
+
+bm7.1: tanh(4x)
+n = 4, m = 4
+Bernstein coefficients:  0.0724 1.0000 1.0000 1.0000 0.9999 
+
+feature vector:  1 64 96 64 16 
+
+
+bm8.1: x^0.45
+n = 4, m = 4
+Bernstein coefficients:  0.1298 0.7671 0.6128 0.9502 0.9883 
+
+feature vector:  2 49 59 61 16 
+
+
+bm9.1: exp(-2x)
+n = 4, m = 4
+Bernstein coefficients:  0.9990 0.5040 0.3217 0.2012 0.1356 
+
+feature vector:  16 32 31 13 2 
+
+
+bm10.1: sigmoid(x)
+n = 4, m = 4
+Bernstein coefficients:  0.5000 0.5625 0.6251 0.6819 0.7311 
+
+feature vector:  8 36 60 44 12 
+
+
+bm11.1: x^2.2
+n = 4, m = 4
+Bernstein coefficients:  0.0003 0.0003 0.1077 0.4568 0.9984 
+
+feature vector:  0 0 10 29 16 
+
+
+bm12.1: 0.5*cos(pi*x)+0.5
+n = 4, m = 4
+Bernstein coefficients:  1.0000 1.0000 0.5000 0.0000 0.0000 
+
+feature vector:  16 64 48 0 0 
+
+
+bm1.2: sin(x)
+n = 4, m = 8
+Bernstein coefficients:  0.0008 0.2483 0.5022 0.7058 0.8416 
+
+feature vector:  0 254 771 723 215 
+
+
+bm2.2: cos(x)
+n = 4, m = 8
+Bernstein coefficients:  0.9996 0.9990 0.9184 0.7493 0.5406 
+
+feature vector:  256 1023 1411 767 138 
+
+
+bm3.2: exp(-x)
+n = 4, m = 8
+Bernstein coefficients:  0.9992 0.7517 0.5813 0.4605 0.3677 
+
+feature vector:  256 770 893 472 94 
+
+
+bm4.2: log(x+1)
+n = 4, m = 8
+Bernstein coefficients:  0.0009 0.2475 0.4220 0.5680 0.6932 
+
+feature vector:  0 253 648 582 177 
+
+
+bm5.2: sin(pi*x)/pi
+n = 4, m = 8
+Bernstein coefficients:  0.0011 0.2444 0.5225 0.2444 0.0011 
+
+feature vector:  0 250 803 250 0 
+
+
+bm6.2: tanh(x)
+n = 4, m = 8
+Bernstein coefficients:  0.0008 0.2483 0.5031 0.6550 0.7619 
+
+feature vector:  0 254 773 671 195 
+
+
+bm7.2: tanh(4x)
+n = 4, m = 8
+Bernstein coefficients:  0.0724 1.0000 1.0000 1.0000 0.9999 
+
+feature vector:  19 1024 1536 1024 256 
+
+
+bm8.2: x^0.45
+n = 4, m = 8
+Bernstein coefficients:  0.1298 0.7671 0.6128 0.9502 0.9883 
+
+feature vector:  33 786 941 973 253 
+
+
+bm9.2: exp(-2x)
+n = 4, m = 8
+Bernstein coefficients:  0.9990 0.5040 0.3217 0.2012 0.1356 
+
+feature vector:  256 516 494 206 35 
+
+
+bm10.2: sigmoid(x)
+n = 4, m = 8
+Bernstein coefficients:  0.5000 0.5625 0.6251 0.6819 0.7311 
+
+feature vector:  128 576 960 698 187 
+
+
+bm11.2: x^2.2
+n = 4, m = 8
+Bernstein coefficients:  0.0003 0.0003 0.1077 0.4568 0.9984 
+
+feature vector:  0 0 165 468 256 
+
+
+bm12.2: 0.5*cos(pi*x)+0.5
+n = 4, m = 8
+Bernstein coefficients:  1.0000 1.0000 0.5000 0.0000 0.0000 
+
+feature vector:  256 1024 768 0 0 
+
+
+bm1.3: sin(x)
+n = 6, m = 4
+Bernstein coefficients:  0.0011 0.1633 0.3389 0.4861 0.6367 0.7503 0.8416 
+
+feature vector:  0 16 81 156 153 72 13 
+
+
+bm2.3: cos(x)
+n = 6, m = 4
+Bernstein coefficients:  0.9994 0.9983 0.9724 0.8925 0.8080 0.6786 0.5406 
+
+feature vector:  16 96 233 286 194 65 9 
+
+
+bm3.3: exp(-x)
+n = 6, m = 4
+Bernstein coefficients:  0.9988 0.8368 0.6942 0.5974 0.4993 0.4303 0.3677 
+
+feature vector:  16 80 167 191 120 41 6 
+
+
+bm4.3: log(x+1)
+n = 6, m = 4
+Bernstein coefficients:  0.0012 0.1632 0.3059 0.4105 0.5215 0.6087 0.6933 
+
+feature vector:  0 16 73 131 125 58 11 
+
+
+bm5.3: sin(pi*x)/pi
+n = 6, m = 4
+Bernstein coefficients:  0.0014 0.1618 0.3428 0.4068 0.3428 0.1618 0.0014 
+
+feature vector:  0 16 82 130 82 16 0 
+
+
+bm6.3: tanh(x)
+n = 6, m = 4
+Bernstein coefficients:  0.0011 0.1632 0.3392 0.4774 0.6035 0.6905 0.7618 
+
+feature vector:  0 16 81 153 145 66 12 
+
+
+bm7.3: tanh(4x)
+n = 6, m = 4
+Bernstein coefficients:  0.0000 0.7990 1.0000 1.0000 0.9995 0.9915 0.9998 
+
+feature vector:  0 77 240 320 240 95 16 
+
+
+bm8.3: x^0.45
+n = 6, m = 4
+Bernstein coefficients:  0.0958 0.7190 0.3514 0.9943 0.7042 0.9692 0.9936 
+
+feature vector:  2 69 84 318 169 93 16 
+
+
+bm9.3: exp(-2x)
+n = 6, m = 4
+Bernstein coefficients:  0.9974 0.6744 0.4537 0.3465 0.2360 0.1830 0.1350 
+
+feature vector:  16 65 109 111 57 18 2 
+
+
+bm10.3: sigmoid(x)
+n = 6, m = 4
+Bernstein coefficients:  0.5000 0.5417 0.5833 0.6240 0.6625 0.6983 0.7311 
+
+feature vector:  8 52 140 200 159 67 12 
+
+
+bm11.3: x^2.2
+n = 6, m = 4
+Bernstein coefficients:  0.0007 0.0017 0.0298 0.1760 0.3420 0.6392 0.9985 
+
+feature vector:  0 0 7 56 82 61 16 
+
+
+bm12.3: 0.5*cos(pi*x)+0.5
+n = 6, m = 4
+Bernstein coefficients:  0.9994 0.9985 0.8398 0.5000 0.1602 0.0015 0.0006 
+
+feature vector:  16 96 202 160 38 0 0 
+
+
+bm1.4: sin(x)
+n = 6, m = 8
+Bernstein coefficients:  0.0011 0.1633 0.3389 0.4861 0.6367 0.7503 0.8416 
+
+feature vector:  0 251 1301 2489 2445 1152 215 
+
+
+bm2.4: cos(x)
+n = 6, m = 8
+Bernstein coefficients:  0.9994 0.9983 0.9724 0.8925 0.8080 0.6786 0.5406 
+
+feature vector:  256 1533 3734 4569 3103 1042 138 
+
+
+bm3.4: exp(-x)
+n = 6, m = 8
+Bernstein coefficients:  0.9988 0.8368 0.6942 0.5974 0.4993 0.4303 0.3677 
+
+feature vector:  256 1285 2666 3059 1917 661 94 
+
+
+bm4.4: log(x+1)
+n = 6, m = 8
+Bernstein coefficients:  0.0012 0.1632 0.3059 0.4105 0.5215 0.6087 0.6933 
+
+feature vector:  0 251 1175 2102 2003 935 177 
+
+
+bm5.4: sin(pi*x)/pi
+n = 6, m = 8
+Bernstein coefficients:  0.0014 0.1618 0.3428 0.4068 0.3428 0.1618 0.0014 
+
+feature vector:  0 249 1316 2083 1316 249 0 
+
+
+bm6.4: tanh(x)
+n = 6, m = 8
+Bernstein coefficients:  0.0011 0.1632 0.3392 0.4774 0.6035 0.6905 0.7618 
+
+feature vector:  0 251 1302 2444 2317 1061 195 
+
+
+bm7.4: tanh(4x)
+n = 6, m = 8
+Bernstein coefficients:  0.0000 0.7990 1.0000 1.0000 0.9995 0.9915 0.9998 
+
+feature vector:  0 1227 3840 5120 3838 1523 256 
+
+
+bm8.4: x^0.45
+n = 6, m = 8
+Bernstein coefficients:  0.0958 0.7190 0.3514 0.9943 0.7042 0.9692 0.9936 
+
+feature vector:  25 1104 1349 5091 2704 1489 254 
+
+
+bm9.4: exp(-2x)
+n = 6, m = 8
+Bernstein coefficients:  0.9974 0.6744 0.4537 0.3465 0.2360 0.1830 0.1350 
+
+feature vector:  255 1036 1742 1774 906 281 35 
+
+
+bm10.4: sigmoid(x)
+n = 6, m = 8
+Bernstein coefficients:  0.5000 0.5417 0.5833 0.6240 0.6625 0.6983 0.7311 
+
+feature vector:  128 832 2240 3195 2544 1073 187 
+
+
+bm11.4: x^2.2
+n = 6, m = 8
+Bernstein coefficients:  0.0007 0.0017 0.0298 0.1760 0.3420 0.6392 0.9985 
+
+feature vector:  0 3 115 901 1313 982 256 
+
+
+bm12.4: 0.5*cos(pi*x)+0.5
+n = 6, m = 8
+Bernstein coefficients:  0.9994 0.9985 0.8398 0.5000 0.1602 0.0015 0.0006 
+
+feature vector:  256 1534 3225 2560 615 2 0 
+
+
