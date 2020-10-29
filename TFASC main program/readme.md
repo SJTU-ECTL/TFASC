@@ -97,16 +97,17 @@ There are two modes to run the program, i.e., the "demo" and the "user-defined" 
   1                 6             8
   ```
   - Example: command "./main -demo 1 2" runs for the benchmark "bm1.2" for the target function "sin(x)" with n=4 and m=8.
+  - The result is in "./output_dir/demo_results/bm\<target function ID\>.\<test group ID\>/".
 
-- For "user-defined" mode:
-  - Before compilation, modify the source code in "./src/target_functions.cpp" by defining the new user-defined target function. Specifically, modify the definition of the function "double user_defined_target_function()."
-    For example, if the user-defined target function is cos(2x), then modify the definition of this function as
+- For the "user-defined" mode:
+  - Step 1: before compilation, modify the function "double user_defined_target_function()" in "./src/target_functions.cpp" as the new user-defined target function. 
+    For example, if the user-defined target function is cos(2x), then modify this function as
     ```
     double user_defined_target_function(double x){
       return cos(2*x);
     }
     ```
     After this, compile the program again by typing "make".
-  - Prepare the corresponding input file with the name \<input file name\> in the input directory "./input_dir/user_benchmarks/". \<input file name\> can be an arbitrary file name. For example, if the input file is "./input_dir/user_benchmarks/user_input.txt", then \<input file name\> is "user_input.txt". It should be in the required input format.
-  - Run the execution command: "./main -user \<input file name\> \<test name\>". \<test name\> is an arbitrary name given by the user, such as "test1". Note that both \<input file name\> and \<test name\> do not allow spacing within them.
-  - When the program finishes, please find the corresponding result at "./output_dir/user_results/\<test name\>/".
+  - Step 2: prepare the corresponding input file with the name \<input file name\> in the input directory "./input_dir/user_benchmarks/". \<input file name\> can be an arbitrary file name. For example, if the input file is "./input_dir/user_benchmarks/user_input.txt", then \<input file name\> is "user_input.txt". It should be in the required input format.
+  - Step 3: run the execution command: "./main -user \<input file name\> \<test name\>". \<test name\> is an arbitrary name given by the user, such as "test1". Note that both \<input file name\> and \<test name\> do not allow spacing within them.
+  - hen the program finishes, please find the corresponding result at "./output_dir/user_results/\<test name\>/".
