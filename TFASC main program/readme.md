@@ -17,14 +17,12 @@ Related papers:
 - EDA tools: ABC, MVSIS executive files
 
 ## Input Format
-
 Content in the "input.txt" file:
----
-n
-m
+```
+degree n
+precision m
 feature vector
----
-
+```
 
 ## Usage
 
