@@ -115,7 +115,7 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
     ```
     Example: command `./main -demo 1 2` runs for the benchmark `bm1.2` for the target function `sin(x)` with `n=4` and `m=8`.
     All corresponding input files are provided at `./input_dir/demo_benchmarks/`.
-  - Step 3: check the result at `./output_dir/demo_results/bm<target function ID>.<test group ID>/`.
+  - Step 3: check the results at `./output_dir/demo_results/bm<target function ID>.<test group ID>/`. For example, the results for the benchmark `bm1.2` are in `./output_dir/demo_results/bm1.2/`.
 
 - For the "user-defined" mode:
   - Step 1: before compilation, modify the function `double user_defined_target_function()` in `./src/target_functions.cpp` as the new user-defined target function. 
@@ -125,9 +125,9 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
       return cos(2*x);
     }
     ```
-    After this, compile the program again by typing `make`.
-  - Step 2: prepare the corresponding input file with the name `<input file name>` in the input directory `./input_dir/user_benchmarks/`. `<input file name>` can be an arbitrary file name. For example, if the input file is `./input_dir/user_benchmarks/user_input.txt`, then `<input file name>` is `user_input.txt`. It should be in the required input format.
-  - Step 3: run the program by the command 
+  - Step 2: compile the program by typing `make`.
+  - Step 3: prepare the corresponding input file with the name `<input file name>` in the input directory `./input_dir/user_benchmarks/`. `<input file name>` is an arbitrary file name given by the user. For example, if the input file is `./input_dir/user_benchmarks/user_input.txt`, then `<input file name>` is `user_input.txt`. It should be in the required input format.
+  - Step 4: run the program by the command 
   ```
   ./main -user \<input file name\> \<test name\>"
   ```
@@ -136,8 +136,8 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
   ```
   ./main -user user_input.txt test1
   ```
-  reads in the input file `./input_dir/user_benchmarks/user_input.txt` and generates the result at `./output_dir/user_results/test1/`.
-  - Step 4: check the result at `./output_dir/user_results/<test name>/`.
+  reads in the input file `./input_dir/user_benchmarks/user_input.txt` and generates the results at `./output_dir/user_results/test1/`.
+  - Step 5: check the resuls at `./output_dir/user_results/<test name>/`.
   
 
   
