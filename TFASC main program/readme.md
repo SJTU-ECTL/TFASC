@@ -1,13 +1,19 @@
 # Target Function Approximation for Stochastic Circuit Minimization (TFASC)
 
-This project implements the efficient method of target function approximation for stochastic circuit minimization. Given an error bound, the program finds a minimized SC circuit with the approximation error over the target function satisfying the error bound.
+This project implements the efficient method to find a minimized SC circuit with the approximation error over the target function satisfying the given error bound.
 
 Related papers:
 - [1]: Exploring Target Function Approximation for Stochastic Circuit Minimization (Chen and Qian, 2020)
 
+## Important Notes
+
+- Currently this program only includes the Dynamic Approximation (DA) method proposed in [1] as the best one among all the 3 proposed methods. Later on we will add the remaining Perturbation method (PER) and the Degree-Precision Scanning (DPS) method here.
+- Since the program requires the EDA tools [ABC](http://people.eecs.berkeley.edu/~alanmi/abc/) and [MVSIS](https://ptolemy.berkeley.edu/projects/embedded/mvsis/), please download the appropriate executable files or compile the source codes in your OS. Make sure to put the executable files of both ABC and MVSIS into `./tool_dir/`. For ABC, also put the script `abc.rc` in this directory.
+- This program also calls some PERL scripts for text parsing purpose. Therefore, please make sure PERL is installed on your OS.
+
 ## Requirements
 
-- OS: 32-bit Linux (since the tool MVSIS used here cannot be run in 64-bit OS currently)
+- OS: 32-bit Linux (since the executable file of MVSIS used here cannot run in a 64-bit OS currently; 32-bit Ubuntu 16.04 LTS recommended)
 - gcc
 - g++
 - make
@@ -17,6 +23,7 @@ Related papers:
 - EDA logic synthesis tools: [ABC](http://people.eecs.berkeley.edu/~alanmi/abc/), [MVSIS](https://ptolemy.berkeley.edu/projects/embedded/mvsis/) executable files
 
 ## Input Format
+
 Content in the `input.txt` file:
 ```
 degree n
@@ -126,7 +133,6 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
   reads in the input file `./input_dir/user_benchmarks/user_input.txt` and generates the result at `./output_dir/user_results/test1/`.
   - Step 4: check the result at `./output_dir/user_results/<test name>/`.
   
-# Important Notes
-  - For the executable files ABC and MVSIS, please download the appropriate executable files or compile the source codes in your OS and put these two executable files in `./tool_dir/`. For ABC, also put the script `abc.rc` in this directory.
+
   
   
