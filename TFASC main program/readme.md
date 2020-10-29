@@ -110,26 +110,15 @@ There are two modes to run the program, i.e., the "demo" and the "user-defined" 
     }
     ```
     After this, compile the program again by typing "make".
-  - Step 2: prepare the corresponding input file with the name \<input file name\> in the input directory "./input_dir/user_benchmarks/". \<input file name\> can be an arbitrary file name. For example, if the input file is 
-  ```
-  ./input_dir/user_benchmarks/user_input.txt
-  ```
-  then \<input file name\> is "user_input.txt". It should be in the required input format.
-  - Step 3: run the program by the command
+  - Step 2: prepare the corresponding input file with the name \<input file name\> in the input directory "./input_dir/user_benchmarks/". \<input file name\> can be an arbitrary file name. For example, if the input file is `./input_dir/user_benchmarks/user_input.txt`, then \<input file name\> is `user_input.txt`. It should be in the required input format.
+  - Step 3: run the program by the command 
   ```
   ./main -user \<input file name\> \<test name\>"
   ```
-  \<test name\> is an arbitrary name given by the user, such as "test1". Note that both \<input file name\> and \<test name\> do not allow spacing within them.
+  where `\<test name\>` is an arbitrary name given by the user, such as `test1`. Note that both `\<input file name\>` and `\<test name\>` do not allow spacing within them.
   For example, the command line
   ```
   ./main -user user_input.txt test1
   ```
-  reads in the input file 
-  ```
-  ./input_dir/user_benchmarks/user_input.txt
-  ```
-  and generate the result at 
-  ```
-  ./output_dir/user_results/test1/
-  ```
-  - Step 4: check the result at "./output_dir/user_results/\<test name\>/".
+  reads in the input file `./input_dir/user_benchmarks/user_input.txt` and generates the result at `./output_dir/user_results/test1/`.
+  - Step 4: check the result at `./output_dir/user_results/\<test name\>/`.
