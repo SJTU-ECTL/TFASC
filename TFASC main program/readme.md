@@ -64,9 +64,29 @@ where 4 on the 1st line is for degree n = 4, and 8 on the 2nd line is for the pr
   - <bm_name>_opt_sol_featureVec.txt: feature vector for the best solution with minimum area-delay product (ADP) reported by ABC.
   - bestSol_summary_detailed_ABC.txt: summary of the best solution with minimum ADP reported by ABC.
   - bestSol_summary_detailed_ESPRESSO.txt: summary of the best solution with minimum SOP literal count reported by ESPRESSO.
-  - 
+
+## Compilation
+In the project directory, type "make" to generate the executive "main" file. 
+
 ## Usage
 There are two modes to run the program, i.e., the "demo" and the "user-defined" modes.
-For the "demo" mode, 
+- For the "demo" mode:
+  - execution command: "./main -demo <target function ID> <test group ID>".
+  - <target function ID>: 1 to 12 for the following target functions
+  ```
+  target function ID    target function
+  1                     sin(x)
+  2                     cos(x)
+  3                     exp(-x)
+  4                     log(x+1)
+  5                     sin(Pi*x)/Pi
+  6                     tanh(x)
+  7                     tanh(4x)
+  8                     x^0.45
+  9                     exp(-2x)
+  10                    1/(1+exp(-x))
+  11                    x^2.2
+  12                    0.5*cos(Pi*x)+0.5
+  ```
 
 
