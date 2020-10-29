@@ -8,3 +8,6 @@ The following two directories provide the two major programs.
 - [TFASC main program](https://github.com/SJTU-ECTL/TFASC/tree/master/TFASC%20main%20program) is the program for the Dynamic Approximation (DA) method as the best method proposed in our paper [1]. Later on we will also add the programs for the remaining proposed Perturbation (PER) method and the Degree-Precision Scanning (DPS) method here.
 
 Please refer to `readme.md` in both directories for more details.
+
+Reference paper(s):
+[1]: Exploring Target Function Approximation for Stochastic Circuit Minimization (Chen and Qian, 2020)
