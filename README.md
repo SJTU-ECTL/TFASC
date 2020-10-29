@@ -10,4 +10,4 @@ The following two directories provide the two major programs.
 Please refer to `readme.md` in both directories for more details.
 
 Reference paper(s):
-[1]: Exploring Target Function Approximation for Stochastic Circuit Minimization (Chen and Qian, 2020)
+- [1]: Exploring Target Function Approximation for Stochastic Circuit Minimization (Chen and Qian, 2020)
