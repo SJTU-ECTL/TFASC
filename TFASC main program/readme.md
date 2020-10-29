@@ -60,7 +60,7 @@ where 4 on the 1st line is for degree `n = 4`, and 8 on the 2nd line is for the 
   The output files are:
   - `<bm_name>-solution-summary.txt`: overall summary of the solutions for <bm_name>.
   - `<bm_name>-solution-<num>.pla`: .pla file for the solution with number <num>.
-  - `<bm_name>-solution<num>.v`: gate-lvel Verilog file for the solution with number <num>.
+  - `<bm_name>-solution<num>.v`: gate-level Verilog file for the solution with number <num>.
   - `<bm_name>_opt_sol_featureVec.txt`: feature vector for the best solution with minimum area-delay product (ADP) reported by ABC.
   - `bestSol_summary_detailed_ABC.txt`: summary of the best solution with minimum ADP reported by ABC.
   - `bestSol_summary_detailed_ESPRESSO.txt`: summary of the best solution with minimum SOP literal count reported by ESPRESSO.
