@@ -129,7 +129,7 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
   - Step 3: prepare the corresponding input file with the name `<input file name>` in the input directory `./input_dir/user_benchmarks/`. `<input file name>` is an arbitrary file name given by the user. For example, if the input file is `./input_dir/user_benchmarks/user_input.txt`, then `<input file name>` is `user_input.txt`. It should be in the required input format.
   - Step 4: run the program by the command 
   ```
-  ./main -user \<input file name\> \<test name\>"
+  ./main -user <input file name> <test name>
   ```
   where `<test name>` is an arbitrary name given by the user, such as `test1`. Note that both `<input file name>` and `<test name>` do not allow spacing within them.
   For example, the command line
