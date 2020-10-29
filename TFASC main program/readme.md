@@ -14,7 +14,7 @@ Related papers:
 - libreadline
 - ctags
 - PERL
-- EDA logic synthesis tools: ABC, MVSIS executive files
+- EDA logic synthesis tools: [ABC](http://people.eecs.berkeley.edu/~alanmi/abc/), [MVSIS](https://ptolemy.berkeley.edu/projects/embedded/mvsis/) executive files
 
 ## Input Format
 Content in the "input.txt" file:
