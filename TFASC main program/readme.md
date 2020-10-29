@@ -14,7 +14,7 @@ Related papers:
 - libreadline
 - ctags
 - PERL
-- EDA tools: ABC, MVSIS executive files
+- EDA logic synthesis tools: ABC, MVSIS executive files
 
 ## Input Format
 Content in the "input.txt" file:
@@ -23,6 +23,13 @@ degree n
 precision m
 feature vector
 ```
+For example, the content of the input file "bm1.2.txt" for bm1.2 is:
+```
+4
+8
+0 254 771 723 215
+```
+where 4 on the 1st line is for degree n = 4, and 8 on the 2nd line is for the precision parameter m = 8. On the 3rd line is the input feature vector corresponding to the closest Bernstein polynomial approximating the target function.
 
 ## Usage
 
