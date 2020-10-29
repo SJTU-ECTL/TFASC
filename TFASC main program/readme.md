@@ -35,12 +35,21 @@ where 4 on the 1st line is for degree n = 4, and 8 on the 2nd line is for the pr
 ```
 | readme.md
 | Makefile
+|----src
+|----temp_dir
+|----tool_dir
+|----obj
 |----input_dir
-|      |----demo_benchmarks
-|      |----user_benchmarks
+|     |----demo_benchmarks
+|     |----user_benchmarks
 |----output_dir
-|      |----demo_results
-|      |----user_results
+|     |----demo_results
+|     |     |----bm1.1
+|     |     |----bm1.2
+|     |     |----(and so on)
+|     |----user_results
+|     |     |----test1
+|     |     |----(and so on)
 ```
 
 ## Usage
