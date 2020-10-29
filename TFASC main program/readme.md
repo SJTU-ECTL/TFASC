@@ -71,8 +71,8 @@ In the project directory, type "make" to generate the executive "main" file.
 ## Usage
 There are two modes to run the program, i.e., the "demo" and the "user-defined" modes.
 - For the "demo" mode:
-  - execution command: "./main -demo \<target function ID\> \<test group ID\>".
-  - <target function ID>: 1 to 12 for the following target functions
+  - execution command: "./main -demo \<target function ID\> \<test group ID\>". 
+  - \<target function ID\>: 1 to 12 for the following target functions
   ```
   target function ID    target function
   1                     sin(x)
@@ -88,5 +88,12 @@ There are two modes to run the program, i.e., the "demo" and the "user-defined" 
   11                    x^2.2
   12                    0.5*cos(Pi*x)+0.5
   ```
-
-
+  - \<test group ID\>: 4 test groups with different degree n and precision m
+  ```
+  test group ID     degree n      precision m
+  1                 4             4
+  1                 4             8
+  1                 6             4
+  1                 6             8
+  ```
+  - Example: command "./main -demo 1 2" runs for the benchmark "bm1.2" with target function "sin(x)" with n=4 and m=8.
