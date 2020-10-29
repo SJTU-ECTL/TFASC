@@ -107,4 +107,6 @@ There are two modes to run the program, i.e., the "demo" and the "user-defined" 
     }
     ```
     After this, compile the program again by typing "make".
-  - execution command: "./main -user \<input file name\> \<test name\>". 
+  - Prepare the corresponding input file with the name \<input file name\> in the input directory "./input_dir/user_benchmarks/". \<input file name\> can be an arbitrary file name. For example, if the input file is "./input_dir/user_benchmarks/user_input.txt", then \<input file name\> is "user_input.txt". It should be in the required input format.
+  - Run the execution command: "./main -user \<input file name\> \<test name\>". \<test name\> is an arbitrary name given by the user, such as "test1". Note that both \<input file name\> and \<test name\> do not allow spacing within them.
+  - When the program finishes, please find the corresponding result at "./output_dir/user_results/\<test name\>/".
