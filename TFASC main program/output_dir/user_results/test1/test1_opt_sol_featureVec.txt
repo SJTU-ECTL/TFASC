@@ -1,0 +1,3 @@
+degree = 4
+precision = 4
+best feature vector: 0 16 46 44 14 

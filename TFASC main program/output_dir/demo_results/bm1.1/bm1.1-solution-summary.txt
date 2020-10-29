@@ -1,0 +1,39 @@
+valid solution number : 1
+The minimum literal number : 8
+
+--------------------------
+
++++ solution index = 0 +++ : 
+SOP literal count (Espresso) = 8
+factored-form literal count (Espresso) = 5
+cube count (Espresso) = 4
+
+area (ABC) =     7.0000
+delay (ABC) =     3.3000
+area-delay-product (ABC) =    23.1000
+
+_initialFeatureVector = 0 16 48 45 13 
+actual_feature_vec = 0 16 46 44 14 
+actual_feature_vec_by_pla = 0 16 46 44 14 
+BernCoefVec from actual_feature_vec = 0.0000 0.2500 0.4792 0.6875 0.8750 
+BernCoefVec is VALID! Good!
+Correct! feature vector result and .pla file are equivalent.
+initial approximation error = 0.01031145
+approximation error bound = 0.01237374
+approximation error = 0.01040437
+
+
+
+
+=================================
+
+the following list all the solutions by area-delay-product by ABC in ascending order:
+
+solution index (sorted by ABC in terms of area-delay-product) = 0
+corresponding solution pla file name = /home/wch/wangchen_research/approxSC_upload/DA_programs/linux_program/output_dir/demo_results/bm1.1/bm1.1-solution-000.pla
+area (ABC) =     7.0000
+delay (ABC) =     3.3000
+area-delay-product (ABC) =    23.1000
+
+-----------------
+

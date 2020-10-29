@@ -1,0 +1,31 @@
+statistics for the optimal solution by Espresso in terms of literal count:
+SOP literal count (Espresso) = 32
+factored-form literal count (Espresso) = 21
+cube count (Espresso) = 8
+
+area (ABC) =    41.0000
+delay (ABC) =     6.5000
+area-delay-product (ABC) =   266.5000
+
+_initialFeatureVector = 0 254 771 723 215 
+actual_feature_vec = 0 256 771 726 215 
+actual_feature_vec_by_pla = 0 256 771 726 215 
+BernCoefVec from actual_feature_vec = 0.0000 0.2500 0.5020 0.7090 0.8398 
+BernCoefVec is VALID! Good!
+Correct! feature vector result and .pla file are equivalent.
+
+initial approximation error = 0.00063245
+approximation error bound = 0.00075894
+approximation error = 0.00075475
+
+_espresso_called_num__processNode = 135
+_espresso_called_num__AssignMatrixByEspresso = 137
+_nodeVec_length_before_pruning_in_each_level_vec : 
+2 4 6 9 5 53 43 1 2 
+_nodeVec_length_after_pruning_in_each_level_vec : 
+2 4 5 5 5 5 5 1 0 
+literal count of each node in _optimalNodes_before_sorting: 
+literal count = 33, corresponding level = 8
+literal count = 32, corresponding level = 8
+
+

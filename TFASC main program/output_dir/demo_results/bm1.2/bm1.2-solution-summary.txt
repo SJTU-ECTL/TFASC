@@ -1,0 +1,69 @@
+valid solution number : 2
+The minimum literal number : 32
+
+--------------------------
+
++++ solution index = 0 +++ : 
+SOP literal count (Espresso) = 32
+factored-form literal count (Espresso) = 21
+cube count (Espresso) = 8
+
+area (ABC) =    41.0000
+delay (ABC) =     6.5000
+area-delay-product (ABC) =   266.5000
+
+_initialFeatureVector = 0 254 771 723 215 
+actual_feature_vec = 0 256 771 726 215 
+actual_feature_vec_by_pla = 0 256 771 726 215 
+BernCoefVec from actual_feature_vec = 0.0000 0.2500 0.5020 0.7090 0.8398 
+BernCoefVec is VALID! Good!
+Correct! feature vector result and .pla file are equivalent.
+initial approximation error = 0.00063245
+approximation error bound = 0.00075894
+approximation error = 0.00075475
+
+
+--------------------------
+
++++ solution index = 1 +++ : 
+SOP literal count (Espresso) = 33
+factored-form literal count (Espresso) = 25
+cube count (Espresso) = 8
+
+area (ABC) =    50.0000
+delay (ABC) =     6.1000
+area-delay-product (ABC) =   305.0000
+
+_initialFeatureVector = 0 254 771 723 215 
+actual_feature_vec = 0 256 770 725 215 
+actual_feature_vec_by_pla = 0 256 770 725 215 
+BernCoefVec from actual_feature_vec = 0.0000 0.2500 0.5013 0.7080 0.8398 
+BernCoefVec is VALID! Good!
+Correct! feature vector result and .pla file are equivalent.
+initial approximation error = 0.00063245
+approximation error bound = 0.00075894
+approximation error = 0.00049890
+
+
+
+
+=================================
+
+the following list all the solutions by area-delay-product by ABC in ascending order:
+
+solution index (sorted by ABC in terms of area-delay-product) = 0
+corresponding solution pla file name = /home/wch/wangchen_research/approxSC_upload/DA_programs/linux_program/output_dir/demo_results/bm1.2/bm1.2-solution-000.pla
+area (ABC) =    41.0000
+delay (ABC) =     6.5000
+area-delay-product (ABC) =   266.5000
+
+-----------------
+
+solution index (sorted by ABC in terms of area-delay-product) = 1
+corresponding solution pla file name = /home/wch/wangchen_research/approxSC_upload/DA_programs/linux_program/output_dir/demo_results/bm1.2/bm1.2-solution-001.pla
+area (ABC) =    50.0000
+delay (ABC) =     6.1000
+area-delay-product (ABC) =   305.0000
+
+-----------------
+
