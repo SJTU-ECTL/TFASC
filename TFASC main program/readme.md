@@ -69,11 +69,11 @@ where 4 on the 1st line is for degree n = 4, and 8 on the 2nd line is for the pr
 In the project directory, type "make" to generate the executive "main" file. 
 
 ## Usage
-There are two modes to run the program, i.e., the "demo" and the "user-defined" modes.
-- For the "demo" mode:
-  - Step 1: type "make" to compile the program.
-  - Step 2: run the program by the command "./main -demo \<target function ID\> \<test group ID\>". 
-    \<target function ID\>: 1 to 12 for the following target functions
+There are two modes to run the program, i.e., the `demo` and the `user-defined` modes.
+- For the `demo` mode:
+  - Step 1: type `make` to compile the program.
+  - Step 2: run the program by the command `./main -demo <target function ID> <test group ID>`. 
+    `<target function ID>` is a number between 1 and 12 for the following target functions
     ```
     target function ID    target function
     1                     sin(x)
@@ -97,28 +97,28 @@ There are two modes to run the program, i.e., the "demo" and the "user-defined" 
     1                 6             4
     1                 6             8
     ```
-    Example: command "./main -demo 1 2" runs for the benchmark "bm1.2" for the target function "sin(x)" with n=4 and m=8.
-    All corresponding input files are provided at "./input_dir/demo_benchmarks/".
-  - Step 3: check the result at "./output_dir/demo_results/bm\<target function ID\>.\<test group ID\>/".
+    Example: command `./main -demo 1 2` runs for the benchmark `bm1.2` for the target function `sin(x)` with `n=4` and `m=8`.
+    All corresponding input files are provided at `./input_dir/demo_benchmarks/`.
+  - Step 3: check the result at `./output_dir/demo_results/bm<target function ID>.<test group ID>/`.
 
 - For the "user-defined" mode:
-  - Step 1: before compilation, modify the function "double user_defined_target_function()" in "./src/target_functions.cpp" as the new user-defined target function. 
-    For example, if the user-defined target function is cos(2x), then modify this function as
+  - Step 1: before compilation, modify the function `double user_defined_target_function()` in `./src/target_functions.cpp` as the new user-defined target function. 
+    For example, if the user-defined target function is `cos(2x)`, then modify this function as
     ```
     double user_defined_target_function(double x){
       return cos(2*x);
     }
     ```
     After this, compile the program again by typing "make".
-  - Step 2: prepare the corresponding input file with the name \<input file name\> in the input directory "./input_dir/user_benchmarks/". \<input file name\> can be an arbitrary file name. For example, if the input file is `./input_dir/user_benchmarks/user_input.txt`, then \<input file name\> is `user_input.txt`. It should be in the required input format.
+  - Step 2: prepare the corresponding input file with the name `<input file name>` in the input directory `./input_dir/user_benchmarks/`. `<input file name>` can be an arbitrary file name. For example, if the input file is `./input_dir/user_benchmarks/user_input.txt`, then `<input file name>` is `user_input.txt`. It should be in the required input format.
   - Step 3: run the program by the command 
   ```
   ./main -user \<input file name\> \<test name\>"
   ```
-  where `\<test name\>` is an arbitrary name given by the user, such as `test1`. Note that both `\<input file name\>` and `\<test name\>` do not allow spacing within them.
+  where `<test name>` is an arbitrary name given by the user, such as `test1`. Note that both `<input file name>` and `<test name>` do not allow spacing within them.
   For example, the command line
   ```
   ./main -user user_input.txt test1
   ```
   reads in the input file `./input_dir/user_benchmarks/user_input.txt` and generates the result at `./output_dir/user_results/test1/`.
-  - Step 4: check the result at `./output_dir/user_results/\<test name\>/`.
+  - Step 4: check the result at `./output_dir/user_results/<test name>/`.
