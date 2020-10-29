@@ -71,7 +71,7 @@ In the project directory, type "make" to generate the executive "main" file.
 ## Usage
 There are two modes to run the program, i.e., the "demo" and the "user-defined" modes.
 - For the "demo" mode:
-  - execution command: "./main -demo <target function ID> <test group ID>".
+  - execution command: "./main -demo \<target function ID\> \<test group ID\>".
   - <target function ID>: 1 to 12 for the following target functions
   ```
   target function ID    target function
