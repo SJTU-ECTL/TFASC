@@ -96,4 +96,4 @@ There are two modes to run the program, i.e., the "demo" and the "user-defined" 
   1                 6             4
   1                 6             8
   ```
-  - Example: command "./main -demo 1 2" runs for the benchmark "bm1.2" with target function "sin(x)" with n=4 and m=8.
+  - Example: command "./main -demo 1 2" runs for the benchmark "bm1.2" for the target function "sin(x)" with n=4 and m=8.
