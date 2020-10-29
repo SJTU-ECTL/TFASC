@@ -8,8 +8,9 @@ Related papers:
 ## Important Notes
 
 - Currently this program only includes the Dynamic Approximation (DA) method proposed in [1] as the best one among all the 3 proposed methods. Later on we will add the remaining proposed Perturbation method (PER) and the Degree-Precision Scanning (DPS) method here.
-- Since the program requires the EDA tools [ABC](http://people.eecs.berkeley.edu/~alanmi/abc/) and [MVSIS](https://ptolemy.berkeley.edu/projects/embedded/mvsis/), please download the appropriate executable files or compile the source codes in your OS. Make sure to put the executable files of both ABC and MVSIS into `./tool_dir/`. For ABC, also put the script `abc.rc` in this directory.
+- Since the program requires the EDA tools [ABC](http://people.eecs.berkeley.edu/~alanmi/abc/) and [MVSIS](https://ptolemy.berkeley.edu/projects/embedded/mvsis/), please download the appropriate executable files or compile the source codes in your OS. Make sure to put the executable files of both ABC and MVSIS into `<program_dir>/tool_dir/`, where `<program_dir>` is the directory containing this program. For ABC, also put the script `abc.rc` in this directory.
 - This program also calls some PERL scripts for text parsing purpose. Therefore, please make sure PERL is installed on your OS.
+- In the following part, we assume the user is at the <program_dir> directory to describe the commands.
 
 ## Requirements
 
@@ -41,6 +42,7 @@ where 4 on the 1st line is for degree `n = 4`, and 8 on the 2nd line is for the 
 ## Program Organization
 
 ```
+<program_dir>
 | readme.md
 | Makefile
 |----src
