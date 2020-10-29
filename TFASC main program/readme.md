@@ -96,9 +96,9 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
     ```
     test group ID     degree n      precision m
     1                 4             4
-    1                 4             8
-    1                 6             4
-    1                 6             8
+    2                 4             8
+    3                 6             4
+    4                 6             8
     ```
     Example: command `./main -demo 1 2` runs for the benchmark `bm1.2` for the target function `sin(x)` with `n=4` and `m=8`.
     All corresponding input files are provided at `./input_dir/demo_benchmarks/`.
