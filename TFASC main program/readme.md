@@ -146,9 +146,9 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
   \alpha                RELAXED_ERROR_BOUND_FACTOR        1.02
   \beta                 APPROX_ERROR_BOUND_RATIO          1.2
   ```
-  - Step 2: compile the program by typing `make`.
-  - Step 3: prepare the corresponding input file with the name `<input file name>` in the input directory `./input_dir/user_benchmarks/`. `<input file name>` is an arbitrary file name given by the user. For example, if the input file is `./input_dir/user_benchmarks/user_input.txt`, then `<input file name>` is `user_input.txt`. It should be in the required input format.
-  - Step 4: run the program by the command 
+  - Step 3: compile the program by typing `make`.
+  - Step 4: prepare the corresponding input file with the name `<input file name>` in the input directory `./input_dir/user_benchmarks/`. `<input file name>` is an arbitrary file name given by the user. For example, if the input file is `./input_dir/user_benchmarks/user_input.txt`, then `<input file name>` is `user_input.txt`. It should be in the required input format.
+  - Step 5: run the program by the command 
   ```
   ./main -user <input file name> <test name>
   ```
@@ -158,7 +158,7 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
   ./main -user user_input.txt test1
   ```
   reads in the input file `./input_dir/user_benchmarks/user_input.txt` and generates the results at `./output_dir/user_results/test1/`.
-  - Step 5: check the resuls at `./output_dir/user_results/<test name>/`.
+  - Step 6: check the resuls at `./output_dir/user_results/<test name>/`.
   
 
   
