@@ -24,7 +24,7 @@ To run the program, the user can choose either the `demo` mode or the `user-defi
   The result summary is `.\output_dir\demo_results\summary.txt`, and the generated input files for TFASC are in the folder `.\output_dir\demo_results\input_files_for_TFASC\`.
 
 - For `user-defined` mode, the user can define a target function and approximate it by the Bernstein polynomial. 
-  - Step 1: the user should put the definition of the target function in `.\target_function_user_defined.m`.
+  - Step 1: define the target function in `.\target_function_user_defined.m`.
   - Step 2: in `.\main_userDef.m` specify the degree n of Bernstein polynomial and the precision parameter m. 
   - Step 3: run `main_userDef.m`. 
 
