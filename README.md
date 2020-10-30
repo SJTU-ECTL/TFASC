@@ -1,4 +1,4 @@
-# TFASC
+# TFASC Overview
 This project implements the efficient method for the target function approximation for stochastic circuit minimization proposed in our paper [1].
 
 Reference paper(s):
