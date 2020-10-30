@@ -138,13 +138,13 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
     ```
   - Step 2: modify the program parameters in `./src/define.h` for quality-runtime tradeoff as follows.
   ```
-  parameter in [1]      parameter in `./src/define.h`     meaning     original value
-  h
-  w
-  $k_{L}$
-  $k_{E}$
-  https://latex.codecogs.com/gif.latex?\\alpha
-  $\beta$
+  parameter in [1]      parameter in `./src/define.h`     default value   
+  w                     LITERAL_LIMIT_PARAM_w             2
+  h                     X_COMB_PARAM_h                    1
+  k_{L}                 K_literal                         4
+  k_{E}                 K_ERROR                           1
+  \alpha                RELAXED_ERROR_BOUND_FACTOR        1.02
+  \beta                 APPROX_ERROR_BOUND_RATIO          1.2
   ```
   - Step 2: compile the program by typing `make`.
   - Step 3: prepare the corresponding input file with the name `<input file name>` in the input directory `./input_dir/user_benchmarks/`. `<input file name>` is an arbitrary file name given by the user. For example, if the input file is `./input_dir/user_benchmarks/user_input.txt`, then `<input file name>` is `user_input.txt`. It should be in the required input format.
