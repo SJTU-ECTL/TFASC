@@ -3,7 +3,7 @@
 This project implements the efficient method to find a minimized SC circuit with the approximation error over the target function satisfying the given error bound.
 
 Related papers:
-- [1]: Exploring Target Function Approximation for Stochastic Circuit Minimization (Chen and Qian, ICCAD 2020)
+- [1]: Exploring Target Function Approximation for Stochastic Circuit Minimization (Chen Wang, Weihua Xiao, John P. Hayes, and Weikang Qian, ICCAD 2020)
 
 ## Important Notes
 
