@@ -12,7 +12,7 @@ Related papers:
   - For ABC, put the executable file `abc` and the script `abc.rc` into `<program_dir>/tool_dir/`, where `<program_dir>` is the directory containing the TFASC program. Due to the github file size limitation, the executable `abc` is not provided in this folder yet. Please compile the source codes from [here](https://github.com/berkeley-abc/abc) to obtain executable `abc` and put it into `<program_dir>/tool_dir/` before running the TFASC program.
   - For MVSIS, put the executable file `mvsis` into `<program_dir>/tool_dir/`. The directory `<program_dir>/tool_dir/` contains a 32-bit executable file `mvsis` already. If it does not work, please download a new executable file or obtain one by compiling the source codes from [here](https://ptolemy.berkeley.edu/projects/embedded/mvsis/software.html).
 - This program also calls some PERL scripts for text parsing purpose. Therefore, please make sure PERL is installed on your OS.
-- In the following part, we assume the user is at the <program_dir> directory to describe the commands.
+- In the following part, we assume the user is at the <program_dir> directory when we describe the commands.
 
 ## Requirements
 
