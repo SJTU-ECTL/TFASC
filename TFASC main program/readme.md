@@ -94,7 +94,7 @@ In the program directory `<program_dir>`:
 ## Usage
 
 There are two modes to run the program, i.e., the `demo` and the `user-defined` modes.
-- For the `demo` mode:
+- For the `demo` mode, the user can run the program for the all the benchmarks used in our paper [1]:
   - Step 1: type `make` to compile the program.
   - Step 2: run the program by the command 
     ```
@@ -128,7 +128,7 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
     All corresponding input files are provided at `./input_dir/demo_benchmarks/`.
   - Step 3: check the results at `./output_dir/demo_results/bm<target function ID>.<test group ID>/`. For example, the results for the benchmark `bm1.2` are in `./output_dir/demo_results/bm1.2/`.
 
-- For the "user-defined" mode:
+- For the "user-defined" mode, the user can run the program for a user-defined target function:
   - Step 1: before compilation, modify the function `double user_defined_target_function()` in `./src/target_functions.cpp` as the new user-defined target function. 
     For example, if the user-defined target function is `cos(2x)`, then modify this function as
     ```
