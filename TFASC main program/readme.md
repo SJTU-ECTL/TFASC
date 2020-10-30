@@ -103,7 +103,7 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
     where `<target function ID>` is a number between 1 and 12 for the following target functions
     ```
     target function ID    target function
-    --------------------------------------
+    -------------------------------------
     1                     sin(x)
     2                     cos(x)
     3                     exp(-x)
@@ -120,6 +120,7 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
     \<test group ID\> represents for one fo the 4 test groups with different degree n and precision m as
     ```
     test group ID     degree n      precision m
+    -------------------------------------------
     1                 4             4
     2                 4             8
     3                 6             4
