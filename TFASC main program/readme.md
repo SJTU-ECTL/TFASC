@@ -49,8 +49,14 @@ where 4 on the first line is for degree `n = 4`, and 8 on the second line is for
 | readme.md
 | Makefile
 |----src
+|     |----(source files)
 |----tool_dir
+|     |----mcnc.genlib
+|     |----mvsis (executable file)
+|     |----abc (executable file)
+|     |----(useful PERL scripts)
 |----temp_dir
+|     |----(temporary files)
 |----obj
 |----input_dir
 |     |----demo_benchmarks
