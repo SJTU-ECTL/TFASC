@@ -1,5 +1,8 @@
 # TFASC
-This project implements the efficient method for the target function approximation for stochastic circuit minimization.
+This project implements the efficient method for the target function approximation for stochastic circuit minimization proposed in our paper [1].
+
+Reference paper(s):
+- [1]: Exploring Target Function Approximation for Stochastic Circuit Minimization (Chen Wang, Weihua Xiao, John P. Hayes, and Weikang Qian, ICCAD 2020)
 
 The following two directories provide the two major programs.
 
@@ -9,5 +12,4 @@ The following two directories provide the two major programs.
 
 Please refer to `readme.md` in both directories for more details.
 
-Reference paper(s):
-- [1]: Exploring Target Function Approximation for Stochastic Circuit Minimization (Chen and Qian, 2020)
+
