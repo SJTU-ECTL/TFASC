@@ -3,11 +3,11 @@
 This project implements the efficient method to find a minimized SC circuit with the approximation error over the target function satisfying the given error bound.
 
 Related papers:
-- [1]: Exploring Target Function Approximation for Stochastic Circuit Minimization (Chen and Qian, 2020)
+- [1]: Exploring Target Function Approximation for Stochastic Circuit Minimization (Chen and Qian, ICCAD 2020)
 
 ## Important Notes
 
-- Currently this program only includes the Dynamic Approximation (DA) method proposed in [1] as the best one among all the 3 proposed methods. Later on we will add the remaining proposed Perturbation method (PER) and the Degree-Precision Scanning (DPS) method here.
+- Currently this program only includes the Dynamic Approximation (DA) method proposed in [1] as the best one among all the 3 proposed methods. Later on we will add the remaining proposed Perturbation (PER) method and the Degree-Precision Scanning (DPS) method here.
 - Since the program requires the EDA tools [ABC](http://people.eecs.berkeley.edu/~alanmi/abc/) and [MVSIS](https://ptolemy.berkeley.edu/projects/embedded/mvsis/), please download the appropriate executable files or compile the source codes in your OS. 
   - For ABC, put the executable file `abc` and the script `abc.rc` into `<program_dir>/tool_dir/`, where `<program_dir>` is the directory containing the TFASC program. Due to the file size limitation, this file is not presented in this folder yet. Please compile the source codes from [here](https://github.com/berkeley-abc/abc) to obtain executable `abc` and put it into `<program_dir>/tool_dir/`.
   - For MVSIS, put the executable file `mvsis` into `<program_dir>/tool_dir/`. The directory `<program_dir>/tool_dir/` contains a 32-bit executable file `mvsis` already. If it does not work, please download a new executable file or obtain one by compiling the source codes from [here](https://ptolemy.berkeley.edu/projects/embedded/mvsis/software.html).
