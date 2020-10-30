@@ -143,7 +143,7 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
   w
   $k_{L}$
   $k_{E}$
-  https://latex.codecogs.com/gif.latex?\\\alpha
+  https://latex.codecogs.com/gif.latex?\\alpha
   $\beta$
   ```
   - Step 2: compile the program by typing `make`.
