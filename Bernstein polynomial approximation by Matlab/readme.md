@@ -2,7 +2,7 @@
 
 This program is supposed to be run before TFASC to prepare for its input files regarding to the target function to be approximated.
 
-This program implements the method proposed in [1] to realize the closest approximation of a target function with a degree-n Bernstein polynomial. More over, given a precision parameter m, it also finds the corresponding feature vector (the same as "problem vector" in [2]) of the Bernstein polynomial.
+This program implements the method proposed in [1] to realize the closest approximation of a target function with a degree-n Bernstein polynomial. Moreover, given a precision parameter m, it also finds the corresponding feature vector (the same as `problem vector` in [2]) of the Bernstein polynomial.
 
 The related reference papers are:
 - [1]: An Architecture for Fault-Tolerant Computation with Stochastic Logic (Qian et. al., 2011)
