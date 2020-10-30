@@ -121,7 +121,7 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
     3                 6             4
     4                 6             8
     ```
-    Example: command `./main -demo 1 2` runs for the benchmark `bm1.2` for the target function `sin(x)` with `n=4` and `m=8`.
+    Example: command `./main -demo 1 2` runs for the benchmark `bm1.2` for the target function `sin(x)` with `n = 4` and `m = 8`.
     All corresponding input files are provided at `./input_dir/demo_benchmarks/`.
   - Step 3: check the results at `./output_dir/demo_results/bm<target function ID>.<test group ID>/`. For example, the results for the benchmark `bm1.2` are in `./output_dir/demo_results/bm1.2/`.
 
