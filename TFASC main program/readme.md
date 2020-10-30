@@ -103,6 +103,7 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
     where `<target function ID>` is a number between 1 and 12 for the following target functions
     ```
     target function ID    target function
+    --------------------------------------
     1                     sin(x)
     2                     cos(x)
     3                     exp(-x)
@@ -139,6 +140,7 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
   - Step 2: modify the program parameters in `./src/define.h` for quality-runtime tradeoff as follows.
   ```
   parameter in [1]      parameter in `./src/define.h`     default value   
+  ---------------------------------------------------------------------
   w                     LITERAL_LIMIT_PARAM_w             2
   h                     X_COMB_PARAM_h                    1
   k_{L}                 K_literal                         4
