@@ -86,7 +86,9 @@ where 4 on the first line is for degree `n = 4`, and 8 on the second line is for
 
 ## Compilation
 
-In the program directory `<program_dir>`, type `make` to generate the executable `main` file. 
+In the program directory `<program_dir>`:
+- For the `demo` mode, type `make` to generate the executable `main` file. 
+- For the `user-defined` mode, first modify the `<program_dir>/src/target_functions.cpp` by defining the user-defined target function (details are shown below). Then, type `make` to generate the executable `main` file. 
 
 ## Usage
 
