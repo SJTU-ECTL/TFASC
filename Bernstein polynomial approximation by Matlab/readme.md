@@ -7,7 +7,7 @@ This program implements the method proposed in [1] to realize the closest approx
 The related reference papers are:
 - [1]: An Architecture for Fault-Tolerant Computation with Stochastic Logic (Qian et. al., 2011)
 - [2]: Cube Assignment for Stochastic Circuit Synthesis (Peng and Qian, 2018)
-- [3]: Exploring Target Function Approximation for Stochastic Circuit Minimization (Chen and Qian, 2020)
+- [3]: Exploring Target Function Approximation for Stochastic Circuit Minimization (Chen Wang, Weihua Xiao, John P. Hayes, and Weikang Qian, ICCAD 2020)
 
 ## Requirements
 
