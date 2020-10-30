@@ -28,7 +28,7 @@ To run the program, the user can choose either the `demo` mode or the `user-defi
   - Step 2: in `.\main_userDef.m` specify the degree n of Bernstein polynomial and the precision parameter m. 
   - Step 3: run `main_userDef.m`. 
 
-  The result summary is saved as `.\output_dir\user_results\summary.txt`, and the generated input file for TFASC is in the folder `.\output_dir\user_results\ input_files_for_TFASC\`.
+  The result summary is saved as `.\output_dir\user_results\summary.txt`, and the generated input file for TFASC is in the folder `.\output_dir\user_results\input_files_for_TFASC\`.
 
 
 
