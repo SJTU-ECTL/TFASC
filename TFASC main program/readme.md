@@ -141,10 +141,10 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
   parameter in [1]      parameter in `./src/define.h`     meaning     original value
   h
   w
-  k_{L}
-  k_{E}
-  \alpha
-  \beta
+  $k_{L}$
+  $k_{E}$
+  $\alpha$
+  $\beta$
   ```
   - Step 2: compile the program by typing `make`.
   - Step 3: prepare the corresponding input file with the name `<input file name>` in the input directory `./input_dir/user_benchmarks/`. `<input file name>` is an arbitrary file name given by the user. For example, if the input file is `./input_dir/user_benchmarks/user_input.txt`, then `<input file name>` is `user_input.txt`. It should be in the required input format.
