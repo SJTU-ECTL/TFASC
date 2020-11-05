@@ -12,4 +12,4 @@ The following two directories provide the two major programs.
 
 Please refer to `readme.md` in both directories for more details.
 
-
+If you have any questions or suggestions, please feel free to eamil to wangchen_2011@sjtu.edu.cn, thanks!
