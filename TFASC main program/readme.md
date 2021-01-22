@@ -10,22 +10,20 @@ Related papers:
 - Currently this program only includes the Dynamic Approximation (DA) method proposed in [1] as the best one among all the 3 proposed methods. Later on, we will add the remaining proposed Perturbation (PER) method and the Degree-Precision Scanning (DPS) method here.
 - Since the program requires the EDA tools [ABC](http://people.eecs.berkeley.edu/~alanmi/abc/) and [MVSIS](https://ptolemy.berkeley.edu/projects/embedded/mvsis/), please download the appropriate executable files or compile the source codes in your OS. 
   - For ABC, suppose the absolute directory containing the executable file `abc` is `<abc_exe_absolute_directory>`. Then, before compiling the TFASC program, please set `ABC_EXE_ABSOLUTE_DIR` in the header file `define.h` as `<abc_exe_absolute_directory>`. Please compile the source codes from [here](https://github.com/berkeley-abc/abc) to obtain executable `abc` and put it into `<program_dir>/tool_dir/` before running the TFASC program.
-  - ~~For ABC, put the executable file `abc` and the script `abc.rc` into `<program_dir>/tool_dir/`, where `<program_dir>` is the directory containing the TFASC program. Due to the github file size limitation, the executable `abc` is not provided in this folder yet. Please compile the source codes from [here](https://github.com/berkeley-abc/abc) to obtain executable `abc` and put it into `<program_dir>/tool_dir/` before running the TFASC program.~~
-  - For MVSIS, suppose the absolute directory containing the executable file `mvsis` is `<mvsis_exe_absolute_directory>`. Then, before compiling the TFASC program, please set `MVSIS_EXE_ABSOLUTE_DIR` in the header file `define.h` as `<mvsis_exe_absolute_directory>`. Note that [the original MVSIS source code](https://ptolemy.berkeley.edu/projects/embedded/mvsis/software.html) is out of date, which is only supported by a 32-bit Linux. In order to run on a modern 64-bit Linux system, you can use the source codes [here](https://github.com/sterin/mvsis)(check [here](https://github.com/wangchen2011/mvsis) as a copy of the contents from the link if it does not work).
-  - ~~For MVSIS, put the executable file `mvsis` into `<program_dir>/tool_dir/`. The directory `<program_dir>/tool_dir/` contains a 32-bit executable file `mvsis` already. If it does not work, please download a new executable file or obtain one by compiling the source codes from [here](https://ptolemy.berkeley.edu/projects/embedded/mvsis/software.html).~~
+  - For MVSIS, suppose the absolute directory containing the executable file `mvsis` is `<mvsis_exe_absolute_directory>`. Then, before compiling the TFASC program, please set `MVSIS_EXE_ABSOLUTE_DIR` in the header file `define.h` as `<mvsis_exe_absolute_directory>`. Note that [the original MVSIS source code](https://ptolemy.berkeley.edu/projects/embedded/mvsis/software.html) is out of date, which is only supported by a 32-bit Linux OS. In order to run on a modern 64-bit Linux OS, you can use the source codes [here](https://github.com/sterin/mvsis) (check [here](https://github.com/wangchen2011/mvsis) as a copy of the contents from the link if it does not work).
 - This program also calls some PERL scripts for text parsing purpose. Therefore, please make sure PERL is installed on your OS.
 - In the following part, we assume the user is at the <program_dir> directory when we describe the directories and the commands.
 
 ## Requirements
 
-- OS: 32-bit Linux (since the executable file of MVSIS used here cannot run in a 64-bit OS currently; 32-bit Ubuntu 16.04 LTS recommended)
+- OS: 64-bit Linux
 - gcc
 - g++
 - make
 - libreadline
 - ctags
 - PERL
-- EDA logic synthesis tools: [ABC](http://people.eecs.berkeley.edu/~alanmi/abc/), [MVSIS](https://ptolemy.berkeley.edu/projects/embedded/mvsis/) executable files
+- EDA logic synthesis tools: [ABC](http://people.eecs.berkeley.edu/~alanmi/abc/), [MVSIS](https://github.com/sterin/mvsis) executable files
 
 ## Input Format
 
