@@ -77,6 +77,11 @@ where 4 on the first line is for degree `n = 4`, and 8 on the second line is for
 |     |----user_results
 |     |     |----test1
 |     |     |----(and so on)
+|----examples
+|     |----input_dir
+|     |     |----demo_benchmarks
+|     |----output_dir
+|     |     |----demo_results
 ```
 
 - `<abc_exe_absolute_directory>`: user-defined directory (can be anywhere) containing the executable file of `ABC`. Set `ABC_EXE_ABSOLUTE_DIR` in the header file `<program_dir>/src/define.h` as `<abc_exe_absolute_directory>` before compilation.
@@ -94,6 +99,7 @@ where 4 on the first line is for degree `n = 4`, and 8 on the second line is for
   - `<bm_name>_opt_sol_featureVec.txt`: feature vector for the best solution with minimum area-delay product (ADP) reported by ABC.
   - `bestSol_summary_detailed_ABC.txt`: summary of the best solution with minimum ADP reported by ABC.
   - `bestSol_summary_detailed_ESPRESSO.txt`: summary of the best solution with minimum SOP literal count reported by ESPRESSO.
+- `examples`: contains input benchmarks for demonstration used in our paper [1] and the results obtained by the DA method.
 
 ## Compilation
 
