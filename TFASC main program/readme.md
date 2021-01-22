@@ -1,4 +1,4 @@
-# Target Function Approximation for Stochastic Circuit Minimization (TFASC)
+# Target Function Approximation for Stochastic Circuit Minimization (TFASC): Dynamic Approximation Method (DA)
 
 Latest update: 22 Jan, 2021.
 
