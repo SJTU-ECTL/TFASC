@@ -1,5 +1,7 @@
 # Target Function Approximation for Stochastic Circuit Minimization (TFASC)
 
+Latest update: 22 Jan, 2021.
+
 This project implements the efficient method to find a minimized SC circuit with the approximation error over the target function satisfying the given error bound.
 
 Related papers:
