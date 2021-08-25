@@ -2,7 +2,7 @@
 This project implements the efficient method for the target function approximation for stochastic circuit minimization proposed in our paper [1].
 
 Reference paper(s):
-- [1]: Exploring Target Function Approximation for Stochastic Circuit Minimization (Chen Wang, Weihua Xiao, John P. Hayes, and Weikang Qian, ICCAD 2020)
+- [1]: Chen Wang, Weihua Xiao, John Hayes, and Weikang Qian, "[Exploring target function approximation for stochastic circuit minimization](https://umji.sjtu.edu.cn/~wkqian/papers/Wang_Xiao_Hayes_Qian_Exploring_Target_Function_Approximation_for_Stochastic_Circuit_Minimization.pdf)," in *Proceedings of the 2020 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)*, virtual event, San Diego, CA, USA, 2020, pp. 122:1-122:9.
 
 The following two directories provide the two major programs.
 
