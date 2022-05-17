@@ -5,13 +5,13 @@ Latest update: 17 May, 2022.
 This project implements the efficient method to synthesize an SC circuit to realize a target function by cube assignment.
 
 Related papers:
-- [1]: Stochastic Circuit Synthesis by Cube Assignment (Xuesong Peng and Weikang Qian, IEEE TCAD 2018)
+- [1]:  Xuesong Peng and Weikang Qian, "[Stochastic circuit synthesis by cube assignment](https://umji.sjtu.edu.cn/~wkqian/papers/Peng_Qian_Stochastic_Circuit_Synthesis_by_Cube_Assignment.pdf)," in *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*, vol. 37, no. 12, pp. 3109-3122, 2018.
 
 ## Important Notes
 
 - This program is based on [1].
 - Since the program requires the EDA tools [ABC](http://people.eecs.berkeley.edu/~alanmi/abc/) and [MVSIS](https://ptolemy.berkeley.edu/projects/embedded/mvsis/), please download the appropriate executable files or compile the source codes in your OS. 
-  - For ABC, suppose the absolute directory containing the executable file `abc` is `<abc_exe_absolute_directory>`. Then, before compiling the TFASC program, please set `ABC_EXE_ABSOLUTE_DIR` in the header file `<program_dir>/src/define.h` as `<abc_exe_absolute_directory>`. Please compile the source codes from [here](https://github.com/berkeley-abc/abc) to obtain executable `abc` and put it into `<program_dir>/tool_dir/` before running the TFASC program.
+  - For ABC, suppose the absolute directory containing the executable file `abc` is `<abc_exe_absolute_directory>`. Then, before compiling the TFASC program, please set `ABC_EXE_ABSOLUTE_DIR` in the header file `<program_dir>/src/define.h` as `<abc_exe_absolute_directory>`. Please compile the source codes from [here](https://github.com/berkeley-abc/abc) to obtain executable `abc` and put it into `<program_dir>/tool_dir/` before running this program.
   - For MVSIS, suppose the absolute directory containing the executable file `mvsis` is `<mvsis_exe_absolute_directory>`. Then, before compiling the TFASC program, please set `MVSIS_EXE_ABSOLUTE_DIR` in the header file `<program_dir>/src/define.h` as `<mvsis_exe_absolute_directory>`. Note that [the original MVSIS source code](https://ptolemy.berkeley.edu/projects/embedded/mvsis/software.html) is out of date, which is only supported by a 32-bit Linux OS. In order to run TFASC program on a modern 64-bit Linux OS, you need to compile the source codes here [link-1](https://github.com/sterin/mvsis) to generate the executable `MVSIS` file (check [here](https://github.com/wangchen2011/mvsis) as a copy of the contents from the link [link-1](https://github.com/sterin/mvsis) if it does not work).
 - This program also calls some PERL scripts for text parsing purpose. Therefore, please make sure PERL is installed on your OS.
 - In the following part, we assume the user is at the `<program_dir>` directory when we describe the directories and the commands.
