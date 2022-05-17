@@ -1,0 +1,3 @@
+/home/wch/wangchen_research/!!!!!PXS_method_good__send_to_kuncai/pxs_method_approx_ABC_newCommand/output_dir/demo_results/bm1.2/bm1.2-solution-004.pla:  pi = 12  po = 1  latch = 0  node = 1  level = 1
+SOP (100.0%):  cubes = 13  lits = 61  lits(ff) = 38
+MDD (  0.0%):  nodes(bdd) = 0

@@ -1,0 +1,2 @@
+    {i} :  Constant 1
+ end_of_file
