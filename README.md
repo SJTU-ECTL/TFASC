@@ -10,6 +10,8 @@ The following two directories provide the two major programs.
 
 - [TFASC main program (on 64-bit Linux)](https://github.com/SJTU-ECTL/TFASC/tree/master/TFASC%20main%20program) is the program for the Dynamic Approximation (DA) method as the best method proposed in our paper [1]. Later on we will also add the programs for the remaining proposed Perturbation (PER) method and the Degree-Precision Scanning (DPS) method here.
 
+- [pxs method (no approximation)]() is the program for stochastic circuit synthesis by cube assignment based on [2], which is treated as the baseline method in [1]. For this method, the initial feature vector (problem vector) is realized exactly with no change.
+
 Please refer to `readme.md` in both directories for more details.
 
 If you have any questions or suggestions, please feel free to eamil to wangchen_2011@sjtu.edu.cn, thanks!
