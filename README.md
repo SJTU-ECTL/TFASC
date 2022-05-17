@@ -14,6 +14,6 @@ The following two directories provide the two major programs.
 
 - [pxs method (no approximation)](https://github.com/SJTU-ECTL/TFASC/tree/master/pxs%20method%20(no%20approximation)) is the program for stochastic circuit synthesis by cube assignment based on [2], which is treated as the baseline method in [1]. For this method, the initial feature vector (problem vector) is realized exactly with no change.
 
-Please refer to `readme.md` in both directories for more details.
+Please refer to `readme.md` in each directory for more details.
 
 If you have any questions or suggestions, please feel free to eamil to wangchen_2011@sjtu.edu.cn, thanks!
