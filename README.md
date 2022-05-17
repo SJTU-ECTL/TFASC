@@ -4,7 +4,7 @@ This project implements the efficient method for the target function approximati
 Reference paper(s):
 - [1]: Chen Wang, Weihua Xiao, John Hayes, and Weikang Qian, "[Exploring target function approximation for stochastic circuit minimization](https://umji.sjtu.edu.cn/~wkqian/papers/Wang_Xiao_Hayes_Qian_Exploring_Target_Function_Approximation_for_Stochastic_Circuit_Minimization.pdf)," in *Proceedings of the 2020 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)*, virtual event, San Diego, CA, USA, 2020, pp. 122:1-122:9.
 
-- [2]: Xuesong Peng and Weikang Qian, "[Stochastic circuit synthesis by cube assignment]," in *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*, 2018:1-1.
+- [2]: Xuesong Peng and Weikang Qian, "[Stochastic circuit synthesis by cube assignment](https://umji.sjtu.edu.cn/~wkqian/papers/Peng_Qian_Stochastic_Circuit_Synthesis_by_Cube_Assignment.pdf)," in *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*, vol. 37, no. 12, pp. 3109-3122, 2018.
 
 The following two directories provide the two major programs.
 
