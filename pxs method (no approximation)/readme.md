@@ -1,15 +1,15 @@
-# Target Function Approximation for Stochastic Circuit Minimization (TFASC): Dynamic Approximation Method (DA)
+# Stochastic Circuit Synthesis by Cube Assignment
 
-Latest update: 22 Jan, 2021.
+Latest update: 17 May, 2022.
 
-This project implements the efficient method to find a minimized SC circuit with the approximation error over the target function satisfying the given error bound.
+This project implements the efficient method to synthesize an SC circuit to realize a target function by cube assignment.
 
 Related papers:
-- [1]: Exploring Target Function Approximation for Stochastic Circuit Minimization (Chen Wang, Weihua Xiao, John P. Hayes, and Weikang Qian, ICCAD 2020)
+- [1]: Stochastic Circuit Synthesis by Cube Assignment (Xuesong Peng and Weikang Qian, IEEE TCAD 2018)
 
 ## Important Notes
 
-- Currently this program only includes the Dynamic Approximation (DA) method proposed in [1] as the best one among all the 3 proposed methods. Later on, we will add the remaining proposed Perturbation (PER) method and the Degree-Precision Scanning (DPS) method here.
+- This program is based on [1].
 - Since the program requires the EDA tools [ABC](http://people.eecs.berkeley.edu/~alanmi/abc/) and [MVSIS](https://ptolemy.berkeley.edu/projects/embedded/mvsis/), please download the appropriate executable files or compile the source codes in your OS. 
   - For ABC, suppose the absolute directory containing the executable file `abc` is `<abc_exe_absolute_directory>`. Then, before compiling the TFASC program, please set `ABC_EXE_ABSOLUTE_DIR` in the header file `<program_dir>/src/define.h` as `<abc_exe_absolute_directory>`. Please compile the source codes from [here](https://github.com/berkeley-abc/abc) to obtain executable `abc` and put it into `<program_dir>/tool_dir/` before running the TFASC program.
   - For MVSIS, suppose the absolute directory containing the executable file `mvsis` is `<mvsis_exe_absolute_directory>`. Then, before compiling the TFASC program, please set `MVSIS_EXE_ABSOLUTE_DIR` in the header file `<program_dir>/src/define.h` as `<mvsis_exe_absolute_directory>`. Note that [the original MVSIS source code](https://ptolemy.berkeley.edu/projects/embedded/mvsis/software.html) is out of date, which is only supported by a 32-bit Linux OS. In order to run TFASC program on a modern 64-bit Linux OS, you need to compile the source codes here [link-1](https://github.com/sterin/mvsis) to generate the executable `MVSIS` file (check [here](https://github.com/wangchen2011/mvsis) as a copy of the contents from the link [link-1](https://github.com/sterin/mvsis) if it does not work).
@@ -161,11 +161,8 @@ There are two modes to run the program, i.e., the `demo` and the `user-defined` 
   parameter in [1]      parameter in `./src/define.h`                     default value   
   --------------------------------------------------------------------------------------
   w                     LITERAL_LIMIT_PARAM_w                             2
-  h                     X_COMB_PARAM_h                                    1
-  k_{L}                 K_literal                                         4
-  k_{E}                 K_ERROR                                           1
-  \alpha                RELAXED_ERROR_BOUND_FACTOR                        1.02
-  \beta                 TARGET_FUNCTION_L2NORM_RELATIVE_ERROR_BOUND       0.02
+  h                     X_COMB_PARAM_h                                    5
+  k_{L}                 K_literal                                         5
   ```
   - Step 3: compile the program by typing `make`.
   - Step 4: prepare the corresponding input file with the name `<input file name>` in the input directory `./input_dir/user_benchmarks/`. `<input file name>` is an arbitrary file name given by the user. For example, if the input file is `./input_dir/user_benchmarks/user_input.txt`, then `<input file name>` is `user_input.txt`. It should be in the required input format.
